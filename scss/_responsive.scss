@@ -1,0 +1,145 @@
+@media screen and (max-width: 424px){
+    .headline__sub{
+        font-size: 5.5rem;
+    
+        .first-letter{
+            font-size: 6.3rem;
+        }
+    }
+    
+    .headline{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    section{
+        padding: 7.9rem;
+    }
+    header{
+    
+        nav{
+            justify-content: space-between;
+            .menu__toggle{
+                display: none;
+            }
+    
+            .nav__list{
+                position: initial;
+                width: initial;
+                height: initial;
+                background-color: transparent;
+                padding: 0;
+                justify-content: initial;
+                flex-direction: row;
+                transform: initial;
+                transition: initial;
+
+                .active{
+                    position: relative;
+
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 2px;
+                        background-color: #ffffff;
+                        left: 0;
+                        bottom: -3px;
+                    }
+                }
+    
+                .nav__item{
+                    margin: 0 2.4rem;
+                    border: none;
+
+                    &:last-child{
+                        margin-right: 0;
+                    }
+    
+                    .nav__link{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+    
+
+    
+        }
+    }
+
+    .headline__sub{
+        font-size: 10rem;
+    
+        .first-letter{
+            font-size: 12.2rem;
+        }
+    }
+    
+    .headline{
+        font-size: 4.7rem;
+        letter-spacing: .8rem;
+    }
+
+    .hero {
+        .headline__description{
+            .separator{
+                .line{
+                    max-width: 11.4rem;
+                }
+            }
+        }
+    }
+
+    
+    .restaurant__info{
+        display: flex;
+        align-items: center;
+
+        & > div {
+            flex: 1;
+        }
+
+        .padding-right{
+            padding-right: 7rem;
+        }
+    }
+
+    footer{
+        .footer__content{
+            max-width: 77.5rem;
+            margin: auto;
+
+            &--about{
+                max-width: 51.3rem;
+                margin: 0 auto 5.4rem;
+            }
+
+            &--divider{
+                display: flex;
+                justify-content: space-between;
+
+                .social-media,
+                .newsletter-form{
+                    width: 100%;
+                    max-width: 27.3rem;
+                    margin: 0 1rem;
+                }
+
+                .social-media{
+                    .social-icons{
+                        i{
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                .newsletter-form{
+                    .btn--newsletter{
+                        margin-left: 17.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

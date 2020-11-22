@@ -8,13 +8,16 @@
 @import './sections/_recipes.scss';
 @import './sections/_menu';
 @import './sections/_blend';
+@import './sections/_vegetables';
 @import './sections/_footer';
 
 //Globals / elements
 @import './_globals';
 @import './_buttons';
+// Rseponsive
+@import './responsive';
 
-/*Global styles*/
+/* Reset */
 *,
 *::before,
 *::after{
