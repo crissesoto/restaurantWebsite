@@ -2,10 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap');
 
 //sections
-@import './header';
-@import './hero';
+@import './sections/_header';
+@import './sections/_hero';
+@import './sections/_story';
+@import './sections/_recipes.scss';
+@import './sections/_menu';
+@import './sections/_blend';
+@import './sections/_footer';
 
-//elements
+//Globals / elements
+@import './_globals';
 @import './_buttons';
 
 /*Global styles*/

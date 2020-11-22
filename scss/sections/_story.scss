@@ -1,0 +1,30 @@
+
+.restaurant__info{
+    text-align: center;
+
+    .restaurant__description{
+        margin-bottom: 3rem;
+
+        .global-headline{
+            margin-top: 6.9rem;
+    
+            .headline__sub{
+                letter-spacing:-1px;
+                line-height: .42;
+                margin-bottom: 1rem;
+            }
+    
+            .asterisk{
+                color: var(--body-font-color);
+                margin: 2.4rem 0;
+            }
+        }
+
+        p{
+            line-height: 1.6rem;
+            margin-bottom: 2.4rem;
+        }
+        
+    }
+}
+

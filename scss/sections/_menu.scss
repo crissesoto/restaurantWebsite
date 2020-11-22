@@ -1,0 +1,13 @@
+.menu{
+    .restaurant__description{
+        padding-top: 3rem;
+        margin-bottom: 0;
+    }
+}
+
+.image-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+}
