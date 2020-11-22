@@ -5,6 +5,9 @@
     font-weight: 100;
     line-height: .8;
     letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: .5s;
 
     .first-letter{
         text-transform: uppercase;
@@ -19,7 +22,9 @@
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .5rem;
-    margin-right: .5rem;
+    margin-right: -.5rem;
+    opacity: 0;
+    animation: scale .5s forwards;
 }
 
 .global-headline{
@@ -37,4 +42,10 @@
     min-height: 65vh;
     display: flex;
     align-items: center;
+}
+
+.single-animation{
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1.5s;
 }

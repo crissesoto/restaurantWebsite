@@ -28,6 +28,9 @@
                 height: .18rem;
                 background-color: #ffffff;
                 position: relative;
+                opacity: 0;
+                animation: grow .3s forwards;
+                animation-delay: .9s;
             }
 
             .line--left::before, .line--right::before{
@@ -36,6 +39,9 @@
                 top: 50%;
                 transform: translateY(-50%);
                 border: .6rem solid transparent;
+                opacity: 0;
+                animation: grow .6s forwards;
+                animation-delay: 1.2s;
             }
 
             .line--left::before{
@@ -52,6 +58,9 @@
                 font-size: 1.2rem;
                 color: var(--secondary-font-color);
                 margin: 0 1.6rem;
+                opacity: 0;
+                animation: spin .5s forwards;
+                animation-delay: .7s;
             }
         }
     }

@@ -14,8 +14,12 @@
 //Globals / elements
 @import './_globals';
 @import './_buttons';
+
 // Rseponsive
 @import './responsive';
+
+//Animations
+@import './animations';
 
 /* Reset */
 *,
@@ -42,8 +46,12 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
 section{
     padding: 3.9rem 0;
+    overflow: hidden;
 }
 
 img{
